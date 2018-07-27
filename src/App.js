@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import './App.css'
-import { MainContainer } from './containers/MainContainer'
+import { Nav } from './components/Nav'
 
 class App extends Component {
   render () {
     return (
-      <MainContainer />
+      <Nav />
     )
   }
 }
