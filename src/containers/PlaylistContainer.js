@@ -1,9 +1,10 @@
 import React from 'react'
+import { Playlist } from '../components/Playlist'
 
 export class PlaylistContainer extends React.Component {
   render () {
     return (
-      <h1>Playlist</h1>
+      <Playlist />
     )
   }
 }
