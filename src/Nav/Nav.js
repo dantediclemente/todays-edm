@@ -10,9 +10,9 @@ export const Nav = () => {
             <span>TODAYS&rsquo; EDM</span>
           </Link>
           <ul id='nav-mobile' className='right hide-on-med-and-down'>
-            <li><Link to='/music'>Music</Link></li>
+            <li><Link to='/tracks'>Tracks</Link></li>
             <li><Link to='/playlist'>Playlists</Link></li>
-            <li><Link to='/news'>News</Link></li>
+            <li><Link to='/About'>About</Link></li>
           </ul>
         </div>
       </nav>
