@@ -10,7 +10,7 @@ export class TracksContainer extends React.Component {
   }
 
   componentWillMount () {
-    fetch('http://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=house&api_key=process.env.API_KEY&format=json')
+    fetch('https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=house&api_key=process.env.API_KEY&format=json')
       .then(response => response.json())
       .then(data => this.setState({ tracks: data.tracks.track }))
   }
