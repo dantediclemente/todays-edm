@@ -20,7 +20,7 @@ export class TracksContainer extends React.Component {
 
     return (
       <div>
-        <h4 class='collection-header center-align animated bounceInDown'>TOP HOUSE SONGS FROM LAST.FM</h4>
+        <h4 className='collection-header center-align animated bounceInDown'>TOP HOUSE SONGS FROM LAST.FM</h4>
         {tracks.map(track =>
           <Track key={track.name}
             name={track.name}
