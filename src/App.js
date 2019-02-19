@@ -13,6 +13,10 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
+          <Route exact path='/' render={() => (
+            <Redirect to='/todays-edm/tracks' />
+          )
+          } />
           <Route exact path='/todays-edm' render={() => (
             <Redirect to='/todays-edm/tracks' />
           )
